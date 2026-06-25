@@ -1,0 +1,5 @@
+Project Information
+An automated analytics platform for retail and supply chain teams. It utilizes time-series
+forecasting to analyze historical sales data, promotional events, and seasonality to
+accurately predict future product demand at the store and department levels, generating
+optimal inventory restocking schedules.
