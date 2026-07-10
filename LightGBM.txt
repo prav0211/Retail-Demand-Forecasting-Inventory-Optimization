@@ -1,0 +1,2 @@
+Train a LightGBM Regressor using multiple features (store, department, category, product, sales, inventory, price, promotions, holidays, reorder level, and date features) to predict future product demand.
+Evaluate the model using MAE, RMSE, and R² Score, visualize feature importance, and save predictions for further analysis.
