@@ -1,0 +1,5 @@
+Facebook Prophet for Retail Demand Forecasting
+Objective : - 
+The objective of this task was to develop a time-series forecasting model using Facebook Prophet to predict future retail demand. 
+The model analyzes historical sales data and identifies trends and seasonal patterns to improve demand forecasting.
+Accurate forecasts help retailers optimize inventory levels and reduce the chances of stock shortages or overstocking.
