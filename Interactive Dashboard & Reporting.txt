@@ -1,0 +1,4 @@
+Interactive Dashboard & Reporting
+Objective
+Develop an interactive dashboard that enables retail managers to monitor sales, demand forecasts, and inventory levels. 
+The dashboard should provide filters, KPIs, visualizations, and inventory recommendations to support business decision-making.
