@@ -1,0 +1,338 @@
+/* ===========================================================
+   RETAIL DEMAND FORECASTING DASHBOARD
+   Developed by Sohel Shaikh
+=========================================================== */
+
+/* ---------- Import Google Font ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ---------- Whole App ---------- */
+
+html, body, [class*="css"]{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+
+.stApp{
+
+    background: linear-gradient(
+        135deg,
+        #0F172A,
+        #1E293B,
+        #0F172A
+    );
+
+    color:white;
+
+}
+
+
+/* ---------- Hide Streamlit ---------- */
+
+#MainMenu{
+    visibility:hidden;
+}
+
+footer{
+    visibility:hidden;
+}
+
+header{
+    visibility:hidden;
+}
+
+
+/* ---------- Sidebar ---------- */
+
+section[data-testid="stSidebar"]{
+
+    background: linear-gradient(
+        180deg,
+        #111827,
+        #1E293B
+    );
+
+    border-right:2px solid #334155;
+
+}
+
+
+/* ---------- Header ---------- */
+
+.header{
+
+    background:linear-gradient(
+        90deg,
+        #2563EB,
+        #06B6D4
+    );
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0px 15px 35px rgba(0,0,0,.35);
+
+    margin-bottom:25px;
+
+}
+
+
+/* ---------- KPI Cards ---------- */
+
+.card{
+
+    background:#1E293B;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0px 8px 25px rgba(0,0,0,.35);
+
+    transition:0.4s;
+
+    border-left:6px solid #3B82F6;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    background:#334155;
+
+}
+
+
+/* ---------- Green Cards ---------- */
+
+.card2{
+
+    background:#1E293B;
+
+    padding:25px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    color:white;
+
+    box-shadow:0px 8px 25px rgba(0,0,0,.35);
+
+    transition:.4s;
+
+    border-left:6px solid #10B981;
+
+}
+
+.card2:hover{
+
+    transform:translateY(-10px);
+
+    background:#334155;
+
+}
+
+
+/* ---------- Dataframe ---------- */
+
+[data-testid="stDataFrame"]{
+
+    background:#111827;
+
+    border-radius:20px;
+
+    padding:10px;
+
+}
+
+
+/* ---------- Buttons ---------- */
+
+.stButton>button{
+
+    background:#2563EB;
+
+    color:white;
+
+    border-radius:10px;
+
+    height:50px;
+
+    width:100%;
+
+    border:none;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+}
+
+
+/* ---------- Download Button ---------- */
+
+.stDownloadButton>button{
+
+    background:#10B981;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    width:100%;
+
+    height:50px;
+
+    font-size:16px;
+
+}
+
+.stDownloadButton>button:hover{
+
+    background:#059669;
+
+}
+
+
+/* ---------- Input Box ---------- */
+
+.stTextInput>div>div>input{
+
+    border-radius:12px;
+
+}
+
+
+/* ---------- Select Box ---------- */
+
+.stSelectbox{
+
+    border-radius:10px;
+
+}
+
+
+/* ---------- Metric ---------- */
+
+[data-testid="metric-container"]{
+
+    background:#1E293B;
+
+    border-radius:15px;
+
+}
+
+
+/* ---------- Divider ---------- */
+
+hr{
+
+    border:1px solid #334155;
+
+}
+
+
+/* ---------- Scroll Bar ---------- */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111827;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563EB;
+
+    border-radius:10px;
+
+}
+
+
+/* ---------- Footer ---------- */
+
+footer{
+
+    text-align:center;
+
+}
+
+
+/* ---------- Success ---------- */
+
+.stSuccess{
+
+    border-radius:12px;
+
+}
+
+
+/* ---------- Info ---------- */
+
+.stInfo{
+
+    border-radius:12px;
+
+}
+
+
+/* ---------- Animation ---------- */
+
+.card{
+
+animation:fade 1s;
+
+}
+
+.card2{
+
+animation:fade 1.3s;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0px);
+
+}
+
+}
