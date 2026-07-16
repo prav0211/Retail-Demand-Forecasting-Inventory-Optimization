@@ -1,0 +1,9 @@
+Built complete ETL pipeline and cleaned retail dataset
+Performed exploratory data analysis (EDA) with business insights
+Implemented Facebook Prophet for time-series forecasting
+Trained LightGBM model for demand prediction
+Integrated Google BigQuery for cloud data storage
+Developed interactive Streamlit dashboard with filters and KPI cards
+Added forecasting, inventory optimization, and reporting features
+Created project documentation and final report
+Optimized project structure for deployment and GitHub
